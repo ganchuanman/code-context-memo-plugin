@@ -9,6 +9,10 @@ The repository contains two implementations:
 - `forIDEA`: JetBrains IDE plugin for IntelliJ IDEA and Android Studio.
 - `forVSCode`: VS Code extension.
 
+## Preview
+
+![Code Memo overview](images/vscode.png)
+
 ## Features
 
 - Adds a `Code Memo` side panel.

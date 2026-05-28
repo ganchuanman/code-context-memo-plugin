@@ -9,6 +9,10 @@ IDE Code Context Memo 用于把选中的代码片段、文件位置和任务说�
 - `forIDEA`：JetBrains IDE 插件，适用于 IntelliJ IDEA 和 Android Studio。
 - `forVSCode`：VS Code 插件。
 
+## 功能预览
+
+![Code Memo 功能预览](images/vscode.png)
+
 ## 功能
 
 - 提供 `Code Memo` 侧边栏面板。
