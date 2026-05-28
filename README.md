@@ -11,7 +11,13 @@ The repository contains two implementations:
 
 ## Preview
 
-![Code Memo overview](images/vscode.png)
+### JetBrains IDE
+
+![Code Memo JetBrains IDE preview](images/idea.png)
+
+### VS Code
+
+![Code Memo VS Code preview](images/vscode.png)
 
 ## Features
 

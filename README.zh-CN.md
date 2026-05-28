@@ -11,7 +11,13 @@ IDE Code Context Memo 用于把选中的代码片段、文件位置和任务说�
 
 ## 功能预览
 
-![Code Memo 功能预览](images/vscode.png)
+### JetBrains IDE
+
+![Code Memo JetBrains IDE 功能预览](images/idea.png)
+
+### VS Code
+
+![Code Memo VS Code 功能预览](images/vscode.png)
 
 ## 功能
 
