@@ -54,13 +54,13 @@ deepseek-v4-pro
 JetBrains IDE package:
 
 ```text
-forIDEA/build/distributions/code-context-memo-0.7.5.zip
+dist/code-context-memo-0.7.5.zip
 ```
 
 VS Code package:
 
 ```text
-forVSCode/build/distributions/code-context-memo-vscode-0.7.5.vsix
+dist/code-context-memo-vscode-0.7.5.vsix
 ```
 
 For JetBrains IDEs, install the zip from disk and restart the IDE after plugin updates so the IDE can reload plugin classes and actions.
@@ -92,7 +92,7 @@ npm run check
 npm run prepare-vsix
 ```
 
-The final `.vsix` is created from `forVSCode/build/vsix`.
+Local build outputs are created under `forIDEA/build/distributions/` and `forVSCode/build/distributions/`. The latest installable artifacts tracked in this repository are copied into `dist/`.
 
 ## Storage
 
@@ -100,4 +100,3 @@ The final `.vsix` is created from `forVSCode/build/vsix`.
 - VS Code memo data is stored at workspace level.
 - AI settings are shared at application/global level.
 - API keys are stored through the IDE or VS Code secret storage mechanism instead of plain memo text.
-

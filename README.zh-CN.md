@@ -54,13 +54,13 @@ deepseek-v4-pro
 JetBrains IDE 安装包：
 
 ```text
-forIDEA/build/distributions/code-context-memo-0.7.5.zip
+dist/code-context-memo-0.7.5.zip
 ```
 
 VS Code 安装包：
 
 ```text
-forVSCode/build/distributions/code-context-memo-vscode-0.7.5.vsix
+dist/code-context-memo-vscode-0.7.5.vsix
 ```
 
 JetBrains IDE 需要从磁盘安装 zip。升级插件后建议重启 IDE，确保 IDE 重新加载插件 class、菜单和 action。
@@ -92,7 +92,7 @@ npm run check
 npm run prepare-vsix
 ```
 
-最终 `.vsix` 从 `forVSCode/build/vsix` 目录生成。
+本地构建产物会生成到 `forIDEA/build/distributions/` 和 `forVSCode/build/distributions/`。当前仓库中跟踪的最新可安装插件包会复制到 `dist/` 目录。
 
 ## 存储
 
@@ -100,4 +100,3 @@ npm run prepare-vsix
 - VS Code 备忘录数据按 workspace 存储。
 - AI 设置按应用或全局维度保存。
 - API Key 通过 IDE 或 VS Code 的 secret storage 机制保存，不写入备忘录正文。
-
