@@ -1,0 +1,41 @@
+README.md
+  19180d9606acc37d 12-15
+README.zh-CN.md
+  19180d9606acc37d 12-15
+.gitignore
+  19180d9606acc37d 6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.8",
+  "base_commit_sha": "4eb50b0654cbbbc533a0c013227977fcbc20803e",
+  "prompts": {
+    "19180d9606acc37d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e68f2-3832-7a23-8a72-3e218b7e9ee9",
+        "model": "gpt-5.5"
+      },
+      "human_author": "ganchuanman",
+      "messages": [],
+      "total_additions": 9,
+      "total_deletions": 0,
+      "accepted_lines": 9,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        ".gitignore": {
+          "additions": 1,
+          "accepted_lines": 1
+        },
+        "README.zh-CN.md": {
+          "additions": 4,
+          "accepted_lines": 4
+        },
+        "README.md": {
+          "additions": 4,
+          "accepted_lines": 4
+        }
+      }
+    }
+  }
+}
