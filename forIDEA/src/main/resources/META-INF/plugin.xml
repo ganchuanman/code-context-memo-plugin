@@ -1,0 +1,32 @@
+<idea-plugin>
+    <id>com.github.ganchuanman.code-context-memo</id>
+    <name>Code Context Memo</name>
+    <version>0.7.5</version>
+    <vendor email="ganchuanman@example.com">ganchuanman</vendor>
+
+    <description><![CDATA[
+        Collect selected code context and notes into a project-level memo.
+    ]]></description>
+
+    <idea-version since-build="243"/>
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationService serviceImplementation="com.github.ganchuanman.codememo.CodeMemoAiSettingsService"/>
+        <projectService serviceImplementation="com.github.ganchuanman.codememo.CodeMemoStateService"/>
+        <toolWindow id="Code Memo"
+                    anchor="right"
+                    icon="/icons/memo.svg"
+                    factoryClass="com.github.ganchuanman.codememo.CodeMemoToolWindowFactory"/>
+    </extensions>
+
+    <actions>
+        <action id="CodeMemo.RecordContext"
+                class="com.github.ganchuanman.codememo.RecordCodeContextAction"
+                text="Record code context"
+                icon="/icons/memo.svg"
+                description="Record selected code context to the memo">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+    </actions>
+</idea-plugin>

@@ -1,0 +1,67 @@
+{
+  "name": "code-context-memo",
+  "displayName": "Code Context Memo",
+  "description": "Collect selected code context and notes into a workspace-level memo.",
+  "version": "0.7.5",
+  "publisher": "ganchuanman",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onView:codeMemo.memoView",
+    "onCommand:codeMemo.recordContext",
+    "onCommand:codeMemo.openAiSettings"
+  ],
+  "main": "./src/extension.js",
+  "extensionKind": [
+    "workspace"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "codeMemo.recordContext",
+        "title": "Record code context",
+        "icon": "$(note)"
+      },
+      {
+        "command": "codeMemo.openAiSettings",
+        "title": "Code Memo: AI Settings",
+        "icon": "$(gear)"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "codeMemo.recordContext",
+          "when": "editorHasSelection",
+          "group": "navigation@0"
+        }
+      ]
+    },
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "codeMemo",
+          "title": "Code Memo",
+          "icon": "media/memo-activity.svg"
+        }
+      ]
+    },
+    "views": {
+      "codeMemo": [
+        {
+          "id": "codeMemo.memoView",
+          "name": "Code Memo",
+          "type": "webview"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "check": "node --check src/extension.js",
+    "prepare-vsix": "node scripts/prepare-vsix.js"
+  }
+}
