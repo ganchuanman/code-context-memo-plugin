@@ -1,0 +1,336 @@
+forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoWrapLayout.java
+  19180d9606acc37d 1-67
+forVSCode/src/extension.js
+  19180d9606acc37d 1-1224
+forIDEA/gradle.properties
+  19180d9606acc37d 1
+forIDEA/build.gradle.kts
+  19180d9606acc37d 1-18
+forVSCode/scripts/prepare-vsix.js
+  19180d9606acc37d 1-60
+forIDEA/src/main/java/com/github/ganchuanman/codememo/RecordCodeContextAction.java
+  19180d9606acc37d 1-159
+forIDEA/src/main/resources/META-INF/plugin.xml
+  19180d9606acc37d 1-32
+forVSCode/media/memo.svg
+  19180d9606acc37d 1-8
+forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoPromptLanguage.java
+  19180d9606acc37d 1-23
+forIDEA/src/main/java/com/github/ganchuanman/codememo/RecordCodeContextDialog.java
+  19180d9606acc37d 1-93
+forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoBackgroundResultDialog.java
+  19180d9606acc37d 1-38
+forIDEA/src/main/resources/icons/memo.svg
+  19180d9606acc37d 1-8
+forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoAiConfig.java
+  19180d9606acc37d 1-45
+forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoAiSettingsService.java
+  19180d9606acc37d 1-136
+README.md
+  19180d9606acc37d 1-17
+forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoFormatter.java
+  19180d9606acc37d 1-40
+forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoBackgroundDialog.java
+  19180d9606acc37d 1-118
+.gitignore
+  19180d9606acc37d 1-5
+forVSCode/package.json
+  19180d9606acc37d 1-67
+forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoTextPane.java
+  19180d9606acc37d 1-197
+forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoHistoryDialog.java
+  19180d9606acc37d 1-179
+forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoAiResultDialog.java
+  19180d9606acc37d 1-53
+forIDEA/settings.gradle.kts
+  19180d9606acc37d 1-17
+forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoAiOperation.java
+  19180d9606acc37d 1-51
+forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoAiClient.java
+  19180d9606acc37d 1-157
+forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoAiSettingsDialog.java
+  19180d9606acc37d 1-210
+forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoStateService.java
+  19180d9606acc37d 1-206
+forVSCode/media/memo-activity.svg
+  19180d9606acc37d 1-8
+forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoToolWindowFactory.java
+  19180d9606acc37d 1-387
+forIDEA/README.md
+  19180d9606acc37d 1-15
+forVSCode/README.md
+  19180d9606acc37d 1-26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.8",
+  "base_commit_sha": "ba32df07d4611999d184b9a440290afac2bf0dd1",
+  "prompts": {
+    "19180d9606acc37d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e68f2-3832-7a23-8a72-3e218b7e9ee9",
+        "model": "gpt-5.5"
+      },
+      "human_author": "ganchuanman",
+      "messages": [],
+      "total_additions": 7360,
+      "total_deletions": 1266,
+      "accepted_lines": 3665,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoTextPane.java": {
+          "additions": 214,
+          "deletions": 17,
+          "accepted_lines": 197
+        },
+        "forVSCode/l10n/bundle.l10n.zh-cn.json": {
+          "additions": 68
+        },
+        "forIDEA/build.gradle.kts": {
+          "additions": 27,
+          "deletions": 9,
+          "accepted_lines": 18
+        },
+        "gradle.properties": {
+          "additions": 1
+        },
+        "forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoHistoryDialog.java": {
+          "additions": 211,
+          "deletions": 32,
+          "accepted_lines": 179
+        },
+        "src/main/java/com/github/ganchuanman/codememo/CodeMemoAiOperation.java": {
+          "additions": 52,
+          "deletions": 15
+        },
+        "forVSCode/media/memo-activity.svg": {
+          "additions": 12,
+          "deletions": 4,
+          "accepted_lines": 8
+        },
+        "forVSCode/README.md": {
+          "additions": 33,
+          "deletions": 7,
+          "accepted_lines": 26
+        },
+        "forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoAiConfig.java": {
+          "additions": 52,
+          "deletions": 7,
+          "accepted_lines": 45
+        },
+        "forVSCode/package.nls.zh-cn.json": {
+          "additions": 6
+        },
+        "src/main/java/com/github/ganchuanman/codememo/CodeMemoAiSettingsService.java": {
+          "additions": 124,
+          "deletions": 19
+        },
+        "forIDEA/settings.gradle.kts": {
+          "additions": 17,
+          "accepted_lines": 17
+        },
+        "forVSCode/package.nls.json": {
+          "additions": 6
+        },
+        "forVSCode/src/extension.js": {
+          "additions": 1800,
+          "deletions": 576,
+          "accepted_lines": 1224
+        },
+        "src/main/java/com/github/ganchuanman/codememo/CodeMemoAiSettingsDialog.java": {
+          "additions": 154,
+          "deletions": 7
+        },
+        "forIDEA/src/main/resources/META-INF/plugin.xml": {
+          "additions": 48,
+          "deletions": 16,
+          "accepted_lines": 32
+        },
+        "forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoBackgroundResultDialog.java": {
+          "additions": 44,
+          "deletions": 6,
+          "accepted_lines": 38
+        },
+        "forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoAiResultDialog.java": {
+          "additions": 56,
+          "deletions": 3,
+          "accepted_lines": 53
+        },
+        "forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoBundle.java": {
+          "additions": 23
+        },
+        "forIDEA/src/main/resources/icons/memo.svg": {
+          "additions": 8,
+          "accepted_lines": 8
+        },
+        "src/main/java/com/github/ganchuanman/codememo/CodeMemoAiClient.java": {
+          "additions": 162,
+          "deletions": 5
+        },
+        "forVSCode/package.json": {
+          "additions": 96,
+          "deletions": 29,
+          "accepted_lines": 67
+        },
+        "forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoAiOperation.java": {
+          "additions": 91,
+          "deletions": 40,
+          "accepted_lines": 51
+        },
+        "forIDEA/src/main/resources/messages/CodeMemoBundle.properties": {
+          "additions": 74
+        },
+        "README.md": {
+          "additions": 29,
+          "deletions": 12,
+          "accepted_lines": 17
+        },
+        "forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoBackgroundDialog.java": {
+          "additions": 137,
+          "deletions": 19,
+          "accepted_lines": 118
+        },
+        "settings.gradle.kts": {
+          "additions": 17
+        },
+        "forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoAiSettingsService.java": {
+          "additions": 156,
+          "deletions": 20,
+          "accepted_lines": 136
+        },
+        "forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoFormatter.java": {
+          "additions": 65,
+          "deletions": 25,
+          "accepted_lines": 40
+        },
+        "src/main/resources/icons/memo.svg": {
+          "additions": 12,
+          "deletions": 4
+        },
+        "forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoAiSettingsDialog.java": {
+          "additions": 243,
+          "deletions": 33,
+          "accepted_lines": 210
+        },
+        "forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoStateService.java": {
+          "additions": 211,
+          "deletions": 5,
+          "accepted_lines": 206
+        },
+        "forIDEA/src/main/resources/messages/CodeMemoBundle_zh_CN.properties": {
+          "additions": 74
+        },
+        "src/main/java/com/github/ganchuanman/codememo/RecordCodeContextDialog.java": {
+          "additions": 105,
+          "deletions": 12
+        },
+        "forIDEA/src/main/java/com/github/ganchuanman/codememo/RecordCodeContextAction.java": {
+          "additions": 162,
+          "deletions": 3,
+          "accepted_lines": 159
+        },
+        "forVSCode/media/memo.svg": {
+          "additions": 14,
+          "deletions": 6,
+          "accepted_lines": 8
+        },
+        "build.gradle.kts": {
+          "additions": 38,
+          "deletions": 20
+        },
+        "src/main/java/com/github/ganchuanman/codememo/CodeMemoBackgroundDialog.java": {
+          "additions": 137,
+          "deletions": 19
+        },
+        "src/main/java/com/github/ganchuanman/codememo/CodeMemoAiConfig.java": {
+          "additions": 29,
+          "deletions": 1
+        },
+        "src/main/java/com/github/ganchuanman/codememo/CodeMemoHistoryDialog.java": {
+          "additions": 185,
+          "deletions": 6
+        },
+        "forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoWrapLayout.java": {
+          "additions": 67,
+          "accepted_lines": 67
+        },
+        "forVSCode/scripts/prepare-vsix.js": {
+          "additions": 68,
+          "deletions": 8,
+          "accepted_lines": 60
+        },
+        "src/main/java/com/github/ganchuanman/codememo/CodeMemoFormatter.java": {
+          "additions": 40,
+          "deletions": 14
+        },
+        "forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoToolWindowFactory.java": {
+          "additions": 482,
+          "deletions": 95,
+          "accepted_lines": 387
+        },
+        "src/main/java/com/github/ganchuanman/codememo/CodeMemoBackgroundResultDialog.java": {
+          "additions": 38
+        },
+        "forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoAiClient.java": {
+          "additions": 163,
+          "deletions": 6,
+          "accepted_lines": 157
+        },
+        "forIDEA/gradle.properties": {
+          "additions": 1,
+          "accepted_lines": 1
+        },
+        "src/main/java/com/github/ganchuanman/codememo/RecordCodeContextAction.java": {
+          "additions": 159,
+          "deletions": 5
+        },
+        "scripts/check-i18n.js": {
+          "additions": 116
+        },
+        "forIDEA/src/main/java/com/github/ganchuanman/codememo/RecordCodeContextDialog.java": {
+          "additions": 122,
+          "deletions": 29,
+          "accepted_lines": 93
+        },
+        "src/main/java/com/github/ganchuanman/codememo/CodeMemoAiResultDialog.java": {
+          "additions": 58,
+          "deletions": 5
+        },
+        "src/main/java/com/github/ganchuanman/codememo/CodeMemoTextPane.java": {
+          "additions": 218,
+          "deletions": 15
+        },
+        "src/main/resources/META-INF/plugin.xml": {
+          "additions": 52,
+          "deletions": 20
+        },
+        "forIDEA/README.md": {
+          "additions": 19,
+          "deletions": 4,
+          "accepted_lines": 15
+        },
+        "src/main/java/com/github/ganchuanman/codememo/CodeMemoWrapLayout.java": {
+          "additions": 67
+        },
+        ".gitignore": {
+          "additions": 8,
+          "deletions": 3,
+          "accepted_lines": 5
+        },
+        "forIDEA/src/main/java/com/github/ganchuanman/codememo/CodeMemoPromptLanguage.java": {
+          "additions": 23,
+          "accepted_lines": 23
+        },
+        "src/main/java/com/github/ganchuanman/codememo/CodeMemoStateService.java": {
+          "additions": 200,
+          "deletions": 3
+        },
+        "src/main/java/com/github/ganchuanman/codememo/CodeMemoToolWindowFactory.java": {
+          "additions": 466,
+          "deletions": 82
+        }
+      }
+    }
+  }
+}
