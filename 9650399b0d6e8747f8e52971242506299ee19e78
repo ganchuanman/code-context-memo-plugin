@@ -1,0 +1,195 @@
+forVSCode/LICENSE
+  19180d9606acc37d 3
+forIDEA/src/main/resources/META-INF/plugin.xml
+  19180d9606acc37d 1-2,5,41-42,46,51
+forVSCode/SUPPORT.md
+  19180d9606acc37d 5
+forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoPromptLanguage.java
+  19180d9606acc37d 1-23
+PUBLISHING.md
+  19180d9606acc37d 7,9,18,20,24,65-66,84,102,104,106-107,131-132
+forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoBackgroundResultDialog.java
+  19180d9606acc37d 1-38
+forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoToolWindowFactory.java
+  19180d9606acc37d 1-387
+forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoWrapLayout.java
+  19180d9606acc37d 1-67
+forIDEA/src/main/java/com/github/aaronoho/codememo/RecordCodeContextAction.java
+  19180d9606acc37d 1-159
+forIDEA/src/main/java/com/github/aaronoho/codememo/RecordCodeContextDialog.java
+  19180d9606acc37d 1-93
+forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoAiOperation.java
+  19180d9606acc37d 1-51
+forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoAiResultDialog.java
+  19180d9606acc37d 1-53
+forVSCode/README.md
+  19180d9606acc37d 5
+forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoStateService.java
+  19180d9606acc37d 1-206
+forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoAiSettingsDialog.java
+  19180d9606acc37d 1-210
+LICENSE
+  19180d9606acc37d 3
+forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoAiClient.java
+  19180d9606acc37d 1-157
+forIDEA/LICENSE
+  19180d9606acc37d 3
+SUPPORT.md
+  19180d9606acc37d 5
+forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoAiSettingsService.java
+  19180d9606acc37d 1-136
+forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoFormatter.java
+  19180d9606acc37d 1-40
+forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoHistoryDialog.java
+  19180d9606acc37d 1-179
+forVSCode/package.json
+  19180d9606acc37d 6,11,15,17
+forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoAiConfig.java
+  19180d9606acc37d 1-45
+forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoTextPane.java
+  19180d9606acc37d 1-197
+forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoBackgroundDialog.java
+  19180d9606acc37d 1-118
+forIDEA/build.gradle.kts
+  19180d9606acc37d 6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.8",
+  "base_commit_sha": "9650399b0d6e8747f8e52971242506299ee19e78",
+  "prompts": {
+    "19180d9606acc37d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e68f2-3832-7a23-8a72-3e218b7e9ee9",
+        "model": "gpt-5.5"
+      },
+      "human_author": "ganchuanman",
+      "messages": [],
+      "total_additions": 2191,
+      "total_deletions": 32,
+      "accepted_lines": 2191,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoAiClient.java": {
+          "additions": 157,
+          "accepted_lines": 157
+        },
+        "PUBLISHING.md": {
+          "additions": 14,
+          "deletions": 14,
+          "accepted_lines": 14
+        },
+        "forVSCode/LICENSE": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoStateService.java": {
+          "additions": 206,
+          "accepted_lines": 206
+        },
+        "forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoAiOperation.java": {
+          "additions": 51,
+          "accepted_lines": 51
+        },
+        "forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoTextPane.java": {
+          "additions": 197,
+          "accepted_lines": 197
+        },
+        "forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoAiSettingsDialog.java": {
+          "additions": 210,
+          "accepted_lines": 210
+        },
+        "forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoHistoryDialog.java": {
+          "additions": 179,
+          "accepted_lines": 179
+        },
+        "LICENSE": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "forIDEA/src/main/resources/META-INF/plugin.xml": {
+          "additions": 7,
+          "deletions": 7,
+          "accepted_lines": 7
+        },
+        "forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoAiResultDialog.java": {
+          "additions": 53,
+          "accepted_lines": 53
+        },
+        "forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoBackgroundResultDialog.java": {
+          "additions": 38,
+          "accepted_lines": 38
+        },
+        "forVSCode/README.md": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoBackgroundDialog.java": {
+          "additions": 118,
+          "accepted_lines": 118
+        },
+        "forIDEA/LICENSE": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoWrapLayout.java": {
+          "additions": 67,
+          "accepted_lines": 67
+        },
+        "SUPPORT.md": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoToolWindowFactory.java": {
+          "additions": 387,
+          "accepted_lines": 387
+        },
+        "forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoPromptLanguage.java": {
+          "additions": 23,
+          "accepted_lines": 23
+        },
+        "forIDEA/src/main/java/com/github/aaronoho/codememo/RecordCodeContextDialog.java": {
+          "additions": 93,
+          "accepted_lines": 93
+        },
+        "forIDEA/build.gradle.kts": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoAiConfig.java": {
+          "additions": 45,
+          "accepted_lines": 45
+        },
+        "forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoFormatter.java": {
+          "additions": 40,
+          "accepted_lines": 40
+        },
+        "forIDEA/src/main/java/com/github/aaronoho/codememo/CodeMemoAiSettingsService.java": {
+          "additions": 136,
+          "accepted_lines": 136
+        },
+        "forVSCode/package.json": {
+          "additions": 4,
+          "deletions": 4,
+          "accepted_lines": 4
+        },
+        "forVSCode/SUPPORT.md": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "forIDEA/src/main/java/com/github/aaronoho/codememo/RecordCodeContextAction.java": {
+          "additions": 159,
+          "accepted_lines": 159
+        }
+      }
+    }
+  }
+}
