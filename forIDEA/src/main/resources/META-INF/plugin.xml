@@ -1,12 +1,38 @@
-<idea-plugin>
+<idea-plugin url="https://github.com/ganchuanman/code-context-memo-plugin">
     <id>com.github.ganchuanman.code-context-memo</id>
     <name>Code Context Memo</name>
     <version>0.7.5</version>
-    <vendor email="ganchuanman@example.com">ganchuanman</vendor>
+    <vendor email="aaron_oh@163.com" url="https://github.com/ganchuanman">ganchuanman</vendor>
 
     <description><![CDATA[
-        Collect selected code context and notes into a project-level memo.
+        Code Context Memo collects selected code snippets, file locations, and task notes into a project-level memo that can be copied to a coding agent.
+        <br/><br/>
+        <b>What it does</b>
+        <ul>
+            <li>Adds a Code Memo tool window for editing and copying the final memo.</li>
+            <li>Adds a Record code context action to the editor context menu when code is selected.</li>
+            <li>Records project-relative file path, line number, code location, selected code, and a What to do note.</li>
+            <li>Persists task background, memo text, and up to 20 history snapshots per project.</li>
+            <li>Supports optional DeepSeek/OpenAI-compatible AI actions for organizing the memo and improving task background text.</li>
+        </ul>
+        <b>Data handling</b>
+        <ul>
+            <li>Memo data is stored in the project workspace file.</li>
+            <li>AI settings are stored at IDE application level.</li>
+            <li>API keys are stored through the JetBrains Password Safe.</li>
+            <li>The plugin does not include telemetry.</li>
+            <li>If AI features are used, the current memo/task background is sent to the endpoint configured by the user.</li>
+        </ul>
     ]]></description>
+
+    <change-notes><![CDATA[
+        <ul>
+            <li>Initial Marketplace-ready release.</li>
+            <li>Record selected code context into a project memo.</li>
+            <li>Add memo history, copy, clear, task background, and AI settings flows.</li>
+            <li>Support DeepSeek/OpenAI-compatible memo organization and task background optimization.</li>
+        </ul>
+    ]]></change-notes>
 
     <idea-version since-build="243"/>
     <depends>com.intellij.modules.platform</depends>

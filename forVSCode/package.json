@@ -4,6 +4,34 @@
   "description": "Collect selected code context and notes into a workspace-level memo.",
   "version": "0.7.5",
   "publisher": "ganchuanman",
+  "license": "MIT",
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ganchuanman/code-context-memo-plugin.git",
+    "directory": "forVSCode"
+  },
+  "bugs": {
+    "url": "https://github.com/ganchuanman/code-context-memo-plugin/issues"
+  },
+  "homepage": "https://github.com/ganchuanman/code-context-memo-plugin#readme",
+  "keywords": [
+    "code",
+    "context",
+    "memo",
+    "notes",
+    "ai",
+    "agent",
+    "prompt",
+    "snippet",
+    "workspace",
+    "deepseek",
+    "openai"
+  ],
+  "galleryBanner": {
+    "color": "#073B3A",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },

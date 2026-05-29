@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const childProcess = require('child_process');
 
 const root = path.resolve(__dirname, '..');
 const packageJson = JSON.parse(fs.readFileSync(path.join(root, 'package.json'), 'utf8'));
@@ -11,8 +12,11 @@ fs.rmSync(stageDir, { recursive: true, force: true });
 fs.mkdirSync(extensionDir, { recursive: true });
 fs.mkdirSync(distributionsDir, { recursive: true });
 
-for (const name of ['package.json', 'README.md', 'src', 'media']) {
-    fs.cpSync(path.join(root, name), path.join(extensionDir, name), { recursive: true });
+for (const name of ['package.json', 'README.md', 'CHANGELOG.md', 'SUPPORT.md', 'PRIVACY.md', 'LICENSE', 'src', 'media']) {
+    const source = path.join(root, name);
+    if (fs.existsSync(source)) {
+        fs.cpSync(source, path.join(extensionDir, name), { recursive: true });
+    }
 }
 
 fs.writeFileSync(path.join(stageDir, '[Content_Types].xml'), `<?xml version="1.0" encoding="utf-8"?>
@@ -20,6 +24,7 @@ fs.writeFileSync(path.join(stageDir, '[Content_Types].xml'), `<?xml version="1.0
     <Default Extension="json" ContentType="application/json"/>
     <Default Extension="js" ContentType="application/javascript"/>
     <Default Extension="md" ContentType="text/markdown"/>
+    <Default Extension="png" ContentType="image/png"/>
     <Default Extension="svg" ContentType="image/svg+xml"/>
     <Default Extension="vsixmanifest" ContentType="text/xml"/>
     <Default Extension="xml" ContentType="text/xml"/>
@@ -32,8 +37,8 @@ fs.writeFileSync(path.join(stageDir, 'extension.vsixmanifest'), `<?xml version="
         <Identity Language="en-US" Id="${escapeXml(packageJson.name)}" Version="${escapeXml(packageJson.version)}" Publisher="${escapeXml(packageJson.publisher)}"/>
         <DisplayName>${escapeXml(packageJson.displayName)}</DisplayName>
         <Description xml:space="preserve">${escapeXml(packageJson.description)}</Description>
-        <Categories>Other</Categories>
-        <Tags>code,memo,context,ai</Tags>
+        <Categories>${escapeXml((packageJson.categories || ['Other']).join(','))}</Categories>
+        <Tags>${escapeXml((packageJson.keywords || []).join(','))}</Tags>
         <Properties>
             <Property Id="Microsoft.VisualStudio.Code.Engine" Value="${escapeXml(packageJson.engines.vscode)}"/>
             <Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="workspace"/>
@@ -46,10 +51,14 @@ fs.writeFileSync(path.join(stageDir, 'extension.vsixmanifest'), `<?xml version="
     <Assets>
         <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true"/>
         <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true"/>
-        <Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/media/memo-activity.svg" Addressable="true"/>
+        <Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/media/icon.png" Addressable="true"/>
     </Assets>
 </PackageManifest>
 `);
+
+const outputFile = path.join(distributionsDir, `${packageJson.name}-vscode-${packageJson.version}.vsix`);
+fs.rmSync(outputFile, { force: true });
+childProcess.execFileSync('zip', ['-qr', outputFile, '.'], { cwd: stageDir });
 
 function escapeXml(value) {
     return String(value)

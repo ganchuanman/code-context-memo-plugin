@@ -61,6 +61,8 @@ deepseek-v4-pro
 
 ## Install
 
+Marketplace publishing materials and submit checklist are maintained in [PUBLISHING.md](PUBLISHING.md).
+
 JetBrains IDE package:
 
 ```text
@@ -110,3 +112,11 @@ Local build outputs are created under `forIDEA/build/distributions/` and `forVSC
 - VS Code memo data is stored at workspace level.
 - AI settings are shared at application/global level.
 - API keys are stored through the IDE or VS Code secret storage mechanism instead of plain memo text.
+
+## Privacy
+
+The plugins do not include telemetry. AI features are optional and only send memo/task background content to the OpenAI-compatible endpoint configured by the user. See [PRIVACY.md](PRIVACY.md).
+
+## License
+
+MIT License. See [LICENSE](LICENSE).

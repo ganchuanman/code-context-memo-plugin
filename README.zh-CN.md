@@ -61,6 +61,8 @@ deepseek-v4-pro
 
 ## 安装
 
+插件市场发布材料和提交前清单维护在 [PUBLISHING.md](PUBLISHING.md)。
+
 JetBrains IDE 安装包：
 
 ```text
@@ -110,3 +112,11 @@ npm run prepare-vsix
 - VS Code 备忘录数据按 workspace 存储。
 - AI 设置按应用或全局维度保存。
 - API Key 通过 IDE 或 VS Code 的 secret storage 机制保存，不写入备忘录正文。
+
+## 隐私
+
+插件不包含 telemetry。AI 功能是可选的，只会在用户触发 AI 操作时，把备忘录或任务背景发送到用户自己配置的 OpenAI 兼容接口。详见 [PRIVACY.md](PRIVACY.md)。
+
+## 开源协议
+
+MIT License。详见 [LICENSE](LICENSE)。
