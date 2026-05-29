@@ -2,7 +2,7 @@
 
 VS Code extension for collecting selected code context and notes into a workspace-level memo.
 
-![Code Context Memo VS Code preview](https://raw.githubusercontent.com/ganchuanman/code-context-memo-plugin/main/images/vscode.png)
+![Code Context Memo VS Code preview](https://raw.githubusercontent.com/AaronOhO/code-context-memo-plugin/main/images/vscode.png)
 
 ## Features
 

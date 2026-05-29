@@ -1,8 +1,8 @@
-<idea-plugin url="https://github.com/ganchuanman/code-context-memo-plugin">
-    <id>com.github.ganchuanman.code-context-memo</id>
+<idea-plugin url="https://github.com/AaronOhO/code-context-memo-plugin">
+    <id>com.github.aaronoho.code-context-memo</id>
     <name>Code Context Memo</name>
     <version>0.7.5</version>
-    <vendor email="aaron_oh@163.com" url="https://github.com/ganchuanman">ganchuanman</vendor>
+    <vendor email="aaron_oh@163.com" url="https://github.com/AaronOhO">AaronOhO</vendor>
 
     <description><![CDATA[
         Code Context Memo collects selected code snippets, file locations, and task notes into a project-level memo that can be copied to a coding agent.
@@ -38,17 +38,17 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.ganchuanman.codememo.CodeMemoAiSettingsService"/>
-        <projectService serviceImplementation="com.github.ganchuanman.codememo.CodeMemoStateService"/>
+        <applicationService serviceImplementation="com.github.aaronoho.codememo.CodeMemoAiSettingsService"/>
+        <projectService serviceImplementation="com.github.aaronoho.codememo.CodeMemoStateService"/>
         <toolWindow id="Code Memo"
                     anchor="right"
                     icon="/icons/memo.svg"
-                    factoryClass="com.github.ganchuanman.codememo.CodeMemoToolWindowFactory"/>
+                    factoryClass="com.github.aaronoho.codememo.CodeMemoToolWindowFactory"/>
     </extensions>
 
     <actions>
         <action id="CodeMemo.RecordContext"
-                class="com.github.ganchuanman.codememo.RecordCodeContextAction"
+                class="com.github.aaronoho.codememo.RecordCodeContextAction"
                 text="Record code context"
                 icon="/icons/memo.svg"
                 description="Record selected code context to the memo">

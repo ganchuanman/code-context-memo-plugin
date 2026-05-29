@@ -1,4 +1,4 @@
-package com.github.ganchuanman.codememo;
+package com.github.aaronoho.codememo;
 
 import com.intellij.credentialStore.CredentialAttributes;
 import com.intellij.credentialStore.Credentials;

@@ -2,7 +2,7 @@
 
 Report issues at:
 
-https://github.com/ganchuanman/code-context-memo-plugin/issues
+https://github.com/AaronOhO/code-context-memo-plugin/issues
 
 Please include:
 

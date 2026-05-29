@@ -1,4 +1,4 @@
-package com.github.ganchuanman.codememo;
+package com.github.aaronoho.codememo;
 
 import com.intellij.icons.AllIcons;
 import com.intellij.openapi.Disposable;

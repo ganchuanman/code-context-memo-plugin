@@ -1,4 +1,4 @@
-package com.github.ganchuanman.codememo;
+package com.github.aaronoho.codememo;
 
 import java.awt.Component;
 import java.awt.Container;

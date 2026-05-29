@@ -1,4 +1,4 @@
-package com.github.ganchuanman.codememo;
+package com.github.aaronoho.codememo;
 
 import com.intellij.ui.JBColor;
 import com.intellij.util.ui.JBUI;

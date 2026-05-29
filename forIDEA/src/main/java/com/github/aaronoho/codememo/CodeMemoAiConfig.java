@@ -1,4 +1,4 @@
-package com.github.ganchuanman.codememo;
+package com.github.aaronoho.codememo;
 
 final class CodeMemoAiConfig {
     final String endpoint;

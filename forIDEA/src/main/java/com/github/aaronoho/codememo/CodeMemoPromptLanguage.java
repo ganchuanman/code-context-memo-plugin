@@ -1,4 +1,4 @@
-package com.github.ganchuanman.codememo;
+package com.github.aaronoho.codememo;
 
 enum CodeMemoPromptLanguage {
     ZH("zh", "Chinese"),

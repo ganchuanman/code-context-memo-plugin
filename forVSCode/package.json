@@ -3,18 +3,18 @@
   "displayName": "Code Context Memo",
   "description": "Collect selected code context and notes into a workspace-level memo.",
   "version": "0.7.5",
-  "publisher": "ganchuanman",
+  "publisher": "AaronOhO",
   "license": "MIT",
   "icon": "media/icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ganchuanman/code-context-memo-plugin.git",
+    "url": "https://github.com/AaronOhO/code-context-memo-plugin.git",
     "directory": "forVSCode"
   },
   "bugs": {
-    "url": "https://github.com/ganchuanman/code-context-memo-plugin/issues"
+    "url": "https://github.com/AaronOhO/code-context-memo-plugin/issues"
   },
-  "homepage": "https://github.com/ganchuanman/code-context-memo-plugin#readme",
+  "homepage": "https://github.com/AaronOhO/code-context-memo-plugin#readme",
   "keywords": [
     "code",
     "context",

@@ -4,9 +4,9 @@ This document collects the materials needed to publish Code Context Memo to Visu
 
 ## Assumptions
 
-- Publisher/vendor: `ganchuanman`
+- Publisher/vendor: `AaronOhO`
 - Support email: `aaron_oh@163.com`
-- Repository: `https://github.com/ganchuanman/code-context-memo-plugin`
+- Repository: `https://github.com/AaronOhO/code-context-memo-plugin`
 - Version: `0.7.5`
 - Pricing: free
 - License/EULA: MIT License
@@ -15,13 +15,13 @@ This document collects the materials needed to publish Code Context Memo to Visu
 
 ### Visual Studio Marketplace
 
-- Create or use the `ganchuanman` publisher.
+- Create or use the `AaronOhO` publisher.
 - Create an Azure DevOps Personal Access Token with Marketplace `Manage` scope.
-- Run `vsce login ganchuanman` before publishing from the CLI, or upload the `.vsix` manually from the publisher portal.
+- Run `vsce login AaronOhO` before publishing from the CLI, or upload the `.vsix` manually from the publisher portal.
 
 ### JetBrains Marketplace
 
-- Create or use the `ganchuanman` vendor profile.
+- Create or use the `AaronOhO` vendor profile.
 - Accept the JetBrains Marketplace Developer Agreement.
 - Select MIT License in the license/EULA section of the upload form.
 - Upload the JetBrains plugin ZIP from the Marketplace upload page.
@@ -62,8 +62,8 @@ Privacy and data handling:
 
 - Extension name: `code-context-memo`
 - Display name: `Code Context Memo`
-- Extension ID after publish: `ganchuanman.code-context-memo`
-- Publisher: `ganchuanman`
+- Extension ID after publish: `AaronOhO.code-context-memo`
+- Publisher: `AaronOhO`
 - Category: `Other`
 - Keywords: `code`, `context`, `memo`, `notes`, `ai`, `agent`, `prompt`, `snippet`, `workspace`, `deepseek`, `openai`
 - Gallery banner color: `#073B3A`
@@ -81,7 +81,7 @@ Recommended CLI flow:
 cd forVSCode
 npm run check
 npx --yes @vscode/vsce package --out build/distributions/code-context-memo-vscode-0.7.5.vsix
-npx @vscode/vsce login ganchuanman
+npx @vscode/vsce login AaronOhO
 npx @vscode/vsce publish
 ```
 
@@ -99,12 +99,12 @@ Then upload `build/distributions/code-context-memo-vscode-0.7.5.vsix` or the off
 
 ## JetBrains Marketplace fields
 
-- Plugin ID: `com.github.ganchuanman.code-context-memo`
+- Plugin ID: `com.github.aaronoho.code-context-memo`
 - Name: `Code Context Memo`
-- Vendor: `ganchuanman`
+- Vendor: `AaronOhO`
 - Vendor email: `aaron_oh@163.com`
-- Vendor URL: `https://github.com/ganchuanman`
-- Website/source: `https://github.com/ganchuanman/code-context-memo-plugin`
+- Vendor URL: `https://github.com/AaronOhO`
+- Website/source: `https://github.com/AaronOhO/code-context-memo-plugin`
 - Since build: `243`
 - Plugin logo: `forIDEA/src/main/resources/META-INF/pluginIcon.svg`
 - Dark logo: `forIDEA/src/main/resources/META-INF/pluginIcon_dark.svg`
@@ -128,8 +128,8 @@ Then upload `build/distributions/ide-code-context-memo-plugin-0.7.5.zip` from Je
 - Confirm MIT License is selected on both marketplace submission forms.
 - Confirm repository is public.
 - Confirm screenshots are current and optimized.
-- Confirm VS Code publisher `ganchuanman` exists.
-- Confirm JetBrains vendor `ganchuanman` exists.
+- Confirm VS Code publisher `AaronOhO` exists.
+- Confirm JetBrains vendor `AaronOhO` exists.
 - Build both packages from a clean worktree.
 - Install both packages locally once before submitting.
 - For JetBrains, run Plugin Verifier if you want to reduce Marketplace review risk.

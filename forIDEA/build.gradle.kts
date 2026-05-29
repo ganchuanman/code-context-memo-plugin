@@ -3,7 +3,7 @@ plugins {
     id("org.jetbrains.intellij.platform")
 }
 
-group = "com.github.ganchuanman"
+group = "com.github.aaronoho"
 version = "0.7.5"
 
 dependencies {
