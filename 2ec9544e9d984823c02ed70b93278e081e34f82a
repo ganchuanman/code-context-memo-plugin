@@ -1,0 +1,154 @@
+forIDEA/CHANGELOG.md
+  19180d9606acc37d 1-9
+forVSCode/package.json
+  19180d9606acc37d 7-34
+forVSCode/scripts/prepare-vsix.js
+  19180d9606acc37d 3,15-19,27,40-41,54,59-61
+forVSCode/CHANGELOG.md
+  19180d9606acc37d 1-9
+forIDEA/src/main/resources/META-INF/pluginIcon.svg
+  19180d9606acc37d 1-9
+forIDEA/src/main/resources/META-INF/pluginIcon_dark.svg
+  19180d9606acc37d 1-9
+forIDEA/README.md
+  19180d9606acc37d 1,5,7,9,11-22,24-26
+forIDEA/PRIVACY.md
+  19180d9606acc37d 1-9
+PRIVACY.md
+  19180d9606acc37d 1-20
+forVSCode/SUPPORT.md
+  19180d9606acc37d 1-13
+forVSCode/LICENSE
+  19180d9606acc37d 1-21
+forIDEA/src/main/resources/META-INF/plugin.xml
+  19180d9606acc37d 1,5,8-25,28-35
+forVSCode/PRIVACY.md
+  19180d9606acc37d 1-9
+forVSCode/.vscodeignore
+  19180d9606acc37d 1-5
+README.md
+  19180d9606acc37d 64-65,115-122
+forIDEA/LICENSE
+  19180d9606acc37d 1-21
+forVSCode/README.md
+  19180d9606acc37d 1,5-6,22-54,56-59
+README.zh-CN.md
+  19180d9606acc37d 64-65,115-122
+PUBLISHING.md
+  19180d9606acc37d 1-142
+LICENSE
+  19180d9606acc37d 1-21
+SUPPORT.md
+  19180d9606acc37d 1-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.8",
+  "base_commit_sha": "2ec9544e9d984823c02ed70b93278e081e34f82a",
+  "prompts": {
+    "19180d9606acc37d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e68f2-3832-7a23-8a72-3e218b7e9ee9",
+        "model": "gpt-5.5"
+      },
+      "human_author": "ganchuanman",
+      "messages": [],
+      "total_additions": 473,
+      "total_deletions": 24,
+      "accepted_lines": 463,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "forIDEA/src/main/resources/META-INF/plugin.xml": {
+          "additions": 29,
+          "deletions": 3,
+          "accepted_lines": 29
+        },
+        "SUPPORT.md": {
+          "additions": 14,
+          "accepted_lines": 14
+        },
+        "forIDEA/README.md": {
+          "additions": 20,
+          "deletions": 5,
+          "accepted_lines": 20
+        },
+        "forVSCode/.vscodeignore": {
+          "additions": 5,
+          "accepted_lines": 5
+        },
+        "forVSCode/package.json": {
+          "additions": 28,
+          "accepted_lines": 28
+        },
+        "forIDEA/CHANGELOG.md": {
+          "additions": 9,
+          "accepted_lines": 9
+        },
+        "forIDEA/PRIVACY.md": {
+          "additions": 9,
+          "accepted_lines": 9
+        },
+        "forIDEA/src/main/resources/META-INF/pluginIcon_dark.svg": {
+          "additions": 9,
+          "accepted_lines": 9
+        },
+        "forVSCode/scripts/prepare-vsix.js": {
+          "additions": 15,
+          "deletions": 6,
+          "accepted_lines": 14
+        },
+        "forVSCode/README.md": {
+          "additions": 41,
+          "deletions": 1,
+          "accepted_lines": 41
+        },
+        "README.zh-CN.md": {
+          "additions": 10,
+          "accepted_lines": 10
+        },
+        "PUBLISHING.md": {
+          "additions": 151,
+          "deletions": 9,
+          "accepted_lines": 142
+        },
+        "forVSCode/PRIVACY.md": {
+          "additions": 9,
+          "accepted_lines": 9
+        },
+        "PRIVACY.md": {
+          "additions": 20,
+          "accepted_lines": 20
+        },
+        "forIDEA/src/main/resources/META-INF/pluginIcon.svg": {
+          "additions": 9,
+          "accepted_lines": 9
+        },
+        "README.md": {
+          "additions": 10,
+          "accepted_lines": 10
+        },
+        "LICENSE": {
+          "additions": 21,
+          "accepted_lines": 21
+        },
+        "forIDEA/LICENSE": {
+          "additions": 21,
+          "accepted_lines": 21
+        },
+        "forVSCode/SUPPORT.md": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "forVSCode/CHANGELOG.md": {
+          "additions": 9,
+          "accepted_lines": 9
+        },
+        "forVSCode/LICENSE": {
+          "additions": 21,
+          "accepted_lines": 21
+        }
+      }
+    }
+  }
+}
